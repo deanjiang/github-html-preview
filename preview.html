@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GitHub HTML Preview</title><link rel="stylesheet" href="preview.css"></head>
+<body><header><div class="header-inner">
+<div class="title"><strong>GitHub HTML Preview</strong><span id="filename"></span></div>
+<div class="actions"><label class="active-control"><input id="scripts" type="checkbox"><span><strong>Enable active content</strong><small>Runs scripts; some images need this</small></span></label><button id="refresh" type="button">Refresh</button><a id="github" target="_blank" rel="noopener">Open on GitHub</a></div>
+</div></header>
+<div id="status" role="status">Loading preview…</div><iframe id="sandbox" src="sandbox.html" title="Isolated repository preview"></iframe>
+<script src="preview.js"></script></body></html>
