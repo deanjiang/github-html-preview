@@ -69,6 +69,10 @@ If you later publish a runtime change, increase `version` in `manifest.json`, re
 
 The optional **Enable active content** feature runs repository JavaScript in the sandbox after an explicit click. Describe it accurately in the Web Store's remote-code declaration and privacy information. The extension handles GitHub file contents locally, including potentially private source; disclose that even though it has no separate server.
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 ## Put this project on GitHub
 
 Unzip the project, create an empty repository on GitHub, then run from this directory:
