@@ -2,6 +2,8 @@
 
 A dependency-free Chrome Manifest V3 extension that adds a **Preview** button beside **Raw** on GitHub `.html` and `.htm` file pages. It opens the rendered HTML in a second tab, including for private repositories you can already access in GitHub. No separate login, token, OAuth app, or backend is required.
 
+GitHub HTML Preview is currently under review by the Chrome Web Store and will soon be available there.
+
 ## Install from local files
 
 1. Download [`github-html-preview-store-v0.1.3.zip`](https://github.com/deanjiang/github-html-preview/releases/latest/download/github-html-preview-store-v0.1.3.zip) from the latest GitHub release and extract it. Open the extracted folder; you should see `manifest.json` directly inside it.
