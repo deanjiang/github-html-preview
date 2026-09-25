@@ -4,9 +4,9 @@ A dependency-free Chrome Manifest V3 extension that adds a **Preview** button be
 
 ## Install from local files
 
-1. Download the **project ZIP** and extract it. Open the extracted `github-html-preview-project` folder; you should see `manifest.json` directly inside it.
+1. Download [`github-html-preview-store-v0.1.3.zip`](https://github.com/deanjiang/github-html-preview/releases/latest/download/github-html-preview-store-v0.1.3.zip) from the latest GitHub release and extract it. Open the extracted folder; you should see `manifest.json` directly inside it.
 2. Open `chrome://extensions` in Chrome and enable **Developer mode**.
-3. Choose **Load unpacked** and select the extracted `github-html-preview-project` folder, not the ZIP file or its parent folder.
+3. Choose **Load unpacked** and select the extracted folder, not the ZIP file or its parent folder.
 4. Open an HTML file on `github.com`, such as [w3c/html/SOURCES.html](https://github.com/w3c/html/blob/master/SOURCES.html), and click **Preview** beside **Raw**. Reload any GitHub tab that was open before installation.
 5. For pages that generate images or other content with JavaScript, select **Enable active content** in the preview tab. Only enable it for repository code you trust.
 
